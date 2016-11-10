@@ -3,13 +3,13 @@
 h2 {
     color: $shady-lady;
     font: $font-titl-h2;
-    letter-spacing: 1px;
+    letter-spacing: 0.006em;
 }
 
 h3 {
     color: #fff;
     font: $font-titl-h3;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.031em;
 }
 
 
@@ -21,7 +21,7 @@ p {
 .nav {
 	list-style-type: none;
     font: $font-nav;
-    letter-spacing: 2px;
+    letter-spacing: 0.125em;
 }
 
 ul {
