@@ -2,7 +2,7 @@
 
 
 .slider {
-    padding-top: 50px;
+    padding-top: 3.12em;
     background-color: $mercury;
     position: relative; 
     clear: both;
@@ -11,7 +11,7 @@
         font: $font-btn;
         color: $millbrook;
         text-decoration: none;
-        padding-right: 23px;
+        padding-right: 0.75em;
         background: url(../img/readmore.png) no-repeat right;
     }
 }
@@ -19,39 +19,34 @@
 #right {
     position: absolute; 
     background: none;
-    left:  70px;
-    top: 194px;
+    left:  4.37em;
+    top: 12.12em
 }
 
 #left {
     position: absolute; 
     background: none;
-    right:  70px;
-    top: 194px;
+    right:  4.37em;
+    top: 12.12em;
 }
 
 .info-slider  {
-    width: 38%;
-    height: 240px;
-    margin-left: 149px;
-    padding-top: 84px;
+    width: 30.68em;
+    height: 15em;
+    margin-left: 9.31em;
+    padding-top: 5.25em;
     float: left;   
 }
 
 .img-slider {
-    width: 38%;
-    height: 240px;
-    padding-top: 84px;
-    float: right;
-
-    img {
-        width: 50%;
-    }
+    width: 30.68em;
+    height: 15em;
+    margin-left: 9.31em;
+    padding-top: 5.25em;
+    float: right;  
 }
 .ellipse {
-    clear: both;
-    padding: 10px;
-    position: relative;
-    margin: 0 auto;
+    margin-left: 37.93em;
+    padding: 0.62em;
 }
 

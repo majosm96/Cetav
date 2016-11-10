@@ -7,17 +7,16 @@
 }
 
 .our-serv {
-    width: 33%;
-    height: 307px;
+    width: 26.62em;
+    height: 19.18em;
     text-align: center; 
     float: left; 
-    padding-top: 112px;
+    padding-top: 7em;
 
     p {
-        width: 53%;
-        min-width: 100px;
+        width: 18.75em;
         margin: 0 auto;
-        padding-bottom: 10px;
+        padding-bottom: 0.62em;
     }   
 }
 
@@ -26,7 +25,7 @@
 .about-us {
     color: #fff;
     background-color: $millbrook;
-    height: 412px;
+    height: 25.75em;
     overflow: hidden;
 
     p, h2 {
@@ -35,19 +34,19 @@
 }
 
 .img-us {
-    width: 60%;
+    width: 40em;
     float: left;
+
+    img {
+        width: 40em;
+    }
 }
 
 .we-are {
-    width: 39%;
-    height: 372px;
+    width: 35.75em;
+    height: 23.25em;
+    padding: 1.62em;
     float: right;
-}
-
-.info {
-    width: 75%;
-    min-width: 250px;
 }
 
 .a-srv {
@@ -61,24 +60,29 @@
 
 .info-gallery {
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 6.25em;
 
     img {
-        margin: 30px 0px 30px 0px;
+        margin: 1.87em 0 1.87em  0;
     }
 }
 
 .imgs-gallery {
-    width: 88%;
-    height: 512px;
+    width: 66.75em;
+    height: 32em;
     margin: 0 auto;
     background-color: $mandys-pink;
 }
 
 .imgs-gal {
-    width: 33%;
+    width: 22.25em;
+    height: 17.5em;
     margin: 0 auto;
-    float: left; 
+    float: left;
+
+    img {
+        width: 22em;
+    }
 }
 
 .gal-img{  
@@ -93,7 +97,5 @@
 
 
 .gallery {
-    width: 90%;
-    margin: 0 auto;
-    padding: 115px 0 100px 0px;
+    padding: 7.18em 0 6.25em 0px;
 }

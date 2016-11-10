@@ -1,9 +1,9 @@
 //Navegation
 .nav {
     background-color: $wild-sand;
-    width: 553px;
-    height: 45px;
-    border-radius: 50px;
+    width: 39.60em;
+    height: 2.90em;
+    border-radius: 3.12em;
     float: right;
 
 }
@@ -17,7 +17,7 @@ ul {
 
 li {
     float: left;
-    border-left: 1px solid $shady-lady;
+    border-left: 0.006em solid $shady-lady;
 
     &:first-child {
     border-left: none;
@@ -26,7 +26,7 @@ li {
 
 li a {
     display: block;
-    padding: 14px 30px;
+    padding: 0.87em 1.87em;
 
      &:hover{
         color: $millbrook;
