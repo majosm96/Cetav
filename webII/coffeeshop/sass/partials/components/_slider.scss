@@ -31,7 +31,7 @@
 }
 
 .info-slider  {
-    width: 491px;
+    width: 38%;
     height: 240px;
     margin-left: 149px;
     padding-top: 84px;
@@ -39,14 +39,19 @@
 }
 
 .img-slider {
-    width: 491px;
+    width: 38%;
     height: 240px;
-    margin-left: 149px;
     padding-top: 84px;
-    float: right;  
+    float: right;
+
+    img {
+        width: 50%;
+    }
 }
 .ellipse {
-    margin-left: 607px;
+    clear: both;
     padding: 10px;
+    position: relative;
+    margin: 0 auto;
 }
 

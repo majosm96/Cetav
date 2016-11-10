@@ -30,7 +30,7 @@ li a {
   padding: 0px; }
 
 body {
-  width: 1280px;
+  width: 100%;
   margin: 0 auto; }
 
 .btn-our {
@@ -93,34 +93,38 @@ li a {
   top: 194px; }
 
 .info-slider {
-  width: 491px;
+  width: 38%;
   height: 240px;
   margin-left: 149px;
   padding-top: 84px;
   float: left; }
 
 .img-slider {
-  width: 491px;
+  width: 38%;
   height: 240px;
-  margin-left: 149px;
   padding-top: 84px;
   float: right; }
+  .img-slider img {
+    width: 50%; }
 
 .ellipse {
-  margin-left: 607px;
-  padding: 10px; }
+  clear: both;
+  padding: 10px;
+  position: relative;
+  margin: 0 auto; }
 
 .services {
   overflow: hidden; }
 
 .our-serv {
-  width: 426px;
+  width: 33%;
   height: 307px;
   text-align: center;
   float: left;
   padding-top: 112px; }
   .our-serv p {
-    width: 300px;
+    width: 53%;
+    min-width: 100px;
     margin: 0 auto;
     padding-bottom: 10px; }
 
@@ -133,14 +137,17 @@ li a {
     color: #fff; }
 
 .img-us {
-  width: 640px;
+  width: 60%;
   float: left; }
 
 .we-are {
-  width: 572px;
+  width: 39%;
   height: 372px;
-  padding: 26px;
   float: right; }
+
+.info {
+  width: 75%;
+  min-width: 250px; }
 
 .a-srv {
   font: italic bold 16px "Open Sans Condensed", sans-serif;
@@ -154,10 +161,15 @@ li a {
     margin: 30px 0px 30px 0px; }
 
 .imgs-gallery {
-  width: 1073px;
+  width: 88%;
   height: 512px;
   margin: 0 auto;
   background-color: #f3b9b9; }
+
+.imgs-gal {
+  width: 33%;
+  margin: 0 auto;
+  float: left; }
 
 .gal-img {
   opacity: 1;
@@ -168,6 +180,8 @@ li a {
   filter: alpha(opacity=30); }
 
 .gallery {
+  width: 90%;
+  margin: 0 auto;
   padding: 115px 0 100px 0px; }
 
 .footer {
@@ -177,7 +191,7 @@ li a {
   clear: both; }
 
 .footer-info {
-  width: 250px;
+  width: 20%;
   float: left;
   padding: 20px;
   margin-left: 27px; }
@@ -185,8 +199,7 @@ li a {
     color: #fff;
     margin-top: 10px; }
   .footer-info:last-child {
-    margin-left: 49px;
-    width: 150px; }
+    width: 18%; }
 
 .social-icons {
   margin-top: 20px; }
@@ -198,7 +211,7 @@ li a {
   padding: 20px 0px 20px 0px; }
 
 .wrapper-head {
-  width: 1058px;
+  width: 95%;
   margin: 0 auto;
   margin-top: 35px; }
 
